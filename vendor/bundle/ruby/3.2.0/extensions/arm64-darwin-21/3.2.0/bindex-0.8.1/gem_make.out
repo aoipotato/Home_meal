@@ -1,0 +1,18 @@
+current directory: /Users/aoi/code/Home_meal/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/aoi/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/aoi/code/Home_meal/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240604-34609-4c8os sitelibdir\=./.gem.20240604-34609-4c8os clean
+
+current directory: /Users/aoi/code/Home_meal/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240604-34609-4c8os sitelibdir\=./.gem.20240604-34609-4c8os
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/aoi/code/Home_meal/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240604-34609-4c8os sitelibdir\=./.gem.20240604-34609-4c8os install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20240604-34609-4c8os/skiptrace/internal
+
+current directory: /Users/aoi/code/Home_meal/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240604-34609-4c8os sitelibdir\=./.gem.20240604-34609-4c8os clean

@@ -1,0 +1,21 @@
+default: &default
+ adapter: mysql2
+ encoding: utf8
+ pool: 5
+ username: <%= ENV['DATABASE_USER'] %>
+ password: <%= ENV['DATABASE_PASS'] %>
+ host: localhost
+
+development:
+ <<: *default
+ database: home_meal_development
+
+test: 
+ <<: *default
+ database: home_meal_test
+
+production:
+ <<: *default
+ database: home_meal_name_production
+ username: <%= ENV['DATABASE_USER'] %>
+ password: <%= ENV['DATABASE_PASS'] %>

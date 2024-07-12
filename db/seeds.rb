@@ -1,0 +1,8 @@
+Dinner.create(name: "唐揚げ")
+Dinner.create(name: "とんかつ")
+Dinner.create(name: "ペペロンチーノ")
+Dinner.create(name: "ナポリタン")
+Dinner.create(name: "豚しゃぶ")
+Dinner.create(name: "チキン南蛮")
+Dinner.create(name: "ロールキャベツ")
+Dinner.create(name: "餃子")
