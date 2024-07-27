@@ -1,6 +1,10 @@
-<h1>今日のごはん</h1>
-<ul>
-  <% @dinners.each do |dinner| %>
-    <li><%= dinner.name %></li>
-  <% end %>
-</ul>
+<div class="body-container">
+  <div class="contents">
+    <div class="title">今日のごはん</div>
+    <ul>
+      <% @dinners.each do |dinner| %>
+        <li class="random-menu"><%= dinner.name %></li>
+      <% end %>
+    </ul>
+  </div>
+</div>
