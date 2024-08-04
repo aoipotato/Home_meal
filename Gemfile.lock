@@ -170,6 +170,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.16.5-x86_64-linux)
       racc (~> 1.4)
+    pg (1.5.7)
     popper_js (2.11.8)
     psych (5.1.2)
       stringio
@@ -287,6 +288,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   mysql2
+  pg
   puma (>= 5.0)
   rails (~> 7.1.3, >= 7.1.3.3)
   sassc-rails
@@ -302,3 +304,6 @@ RUBY VERSION
 
 BUNDLED WITH
    2.5.11
+
+bundle lock --add-platform x86_64-linux
+EDITOR="vi" bin/rails credentials:edit

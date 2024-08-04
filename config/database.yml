@@ -15,7 +15,6 @@ test:
  database: home_meal_test
 
 production:
- <<: *default
- database: home_meal_name_production
- username: <%= ENV['DATABASE_USER'] %>
- password: <%= ENV['DATABASE_PASS'] %>
+  <<: *default
+  adapter: postgresql
+  url: <%= ENV['DATABASE_URL'] %>
